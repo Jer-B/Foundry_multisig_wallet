@@ -80,7 +80,7 @@ export async function getUserOpForETHTransfer(
       []
     );
 
-    builder.useMiddleware(Presets.Middleware.getGasPrice(provider));
+    // builder.useMiddleware(Presets.Middleware.getGasPrice(provider));
 
     const client = await Client.init(BUNDLER_RPC_URL);
     await client.buildUserOperation(builder);
