@@ -23,7 +23,6 @@ debug.log
 inspect_storage.log
 lcov.info
 .keystore
-remappings.txt
 Makefile
 settings.json
 testresults.txt
