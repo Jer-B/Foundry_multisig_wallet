@@ -11,11 +11,13 @@ import {
 
 // This needs to be an ethers provider because we will share this with `userop`
 // export const provider = new providers.JsonRpcProvider(BUNDLER_RPC_URL);
-export const provider = new JsonRpcProvider(BUNDLER_RPC_URL, undefined, {
-  staticNetwork: true,
-});
+// export const provider = new JsonRpcProvider(BUNDLER_RPC_URL, undefined, {
+//   staticNetwork: true,
+// });
 
 // export const provider = new ethers.JsonRpcProvider(BUNDLER_RPC_URL);
+
+export const provider = new JsonRpcProvider(BUNDLER_RPC_URL);
 
 export const entryPointContract = new Contract(
   Constants.ERC4337.EntryPoint,
