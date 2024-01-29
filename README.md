@@ -24,10 +24,14 @@ cd Foundry_multisig_wallet/contracts
 
 ### Foundry Initialization
 
+```
+forge init
+```
+
 - Install dependencies
 
 ```bash
-forge install
+forge install OpenZeppelin/openzeppelin-contracts@v4.9.3 --no-commit && forge install eth-infinitism/account-abstraction --no-commit
 ```
 
 #### Contracts deployment
@@ -114,10 +118,14 @@ cd Foundry_multisig_wallet/contracts
 
 ### Foundry の初期化
 
+```
+forge init
+```
+
 - 依存関係のインストール
 
 ```bash
-forge install
+forge install OpenZeppelin/openzeppelin-contracts@v4.9.3 --no-commit && forge install eth-infinitism/account-abstraction --no-commit
 ```
 
 #### コントラクトのデプロイメント
